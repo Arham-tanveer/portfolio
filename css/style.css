@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0; 
+    font-family: "Montserrat", sans-serif;
+    background-color: #E2F4C5;
+    font-optical-sizing: auto;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    background-color: #58A399;
+    height: 500px;
+}
+.side{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    margin-right: 20px;
+}
+.contact{
+    display: inline;
+}
+.port{
+    margin-left: 20px;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+.web{
+    border: 3px solid #A8CD9F;
+    border-radius: 5px;
+    max-width: 275px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.main h3{
+    color: #A8CD9F ;
+}
+.main{
+    margin-left: 100px;
+    margin-top: 95px;
+}
+
+.banner{
+    margin-top: 110px;
+    height: 250px;
+}
+
+.main h1{
+    font-size: 42px;
+}
+.min{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 240px;
+}
+
+.button{
+    background-color: #496989;
+    color: #E2F4C5;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    text-decoration: none;
+}
+.main-about{
+    background-color: #E2F4C5;
+    height: 460px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    margin-top: -23px;
+}
+
+.about{
+    margin-top: -24px;
+}
+
+.about > p{
+    text-align: justify;
+    margin-right: 50px;
+}
+
+#image{
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.skills{
+    background-color: #A8CD9F;
+    height: 500px;
+    padding: 3px;
+}
+.skills > h1{
+    text-align: center;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+.img-sm{
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+}
+.contact-me{
+    background-color: #496989;
+    padding: 12px;
+    text-align: righ;
+
+}
+.content{
+    text-align: center;
+}
+.contact-me > h3{
+    margin-top: 0;
+}
+
+span{
+    font-size: 15px;
+}
